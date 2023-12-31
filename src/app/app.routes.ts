@@ -6,8 +6,7 @@ import { ViewPersonComponent } from './view-person/view-person.component';
 import { PersonComponent } from './person/person.component';
 
 export const routes: Routes = [
-    {path:'',component:HomeComponent, redirectTo: 'Home', pathMatch: 'full'},
-    
+  {path:'',component:HomeComponent, redirectTo: 'Home', pathMatch: 'full'},
   { path: 'Home', component: HomeComponent },
   { path: 'list', component: PersonComponent },
   { path: 'ViewPerson/:Id', component: ViewPersonComponent },
